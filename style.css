@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+}
+
+html{
+    background-color: aliceblue;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: blue;
+}
+
+p{
+    margin-bottom: 10px;
+}
+
+.paragraph {
+    background-color: green;
+}
+
+#p1{
+    color: red;
+}
+
+#p3{
+    color: rebeccapurple;
+}
+
