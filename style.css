@@ -1,9 +1,14 @@
 *{
-  margin: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
 html{
-    background-color: aliceblue;
+    background-color: blueviolet;
+}
+
+body{
+
 }
 
 h1 {
@@ -15,11 +20,20 @@ h1,h2,h3,h4,h5,h6{
 }
 
 p{
-    margin-bottom: 10px;
+
+}
+
+div{
+    height: 200px;
+    width: 400px;
 }
 
 .paragraph {
-    background-color: green;
+    margin-bottom: 10px;
+}
+
+.paragraph, #p1, #p3{
+    font-family: "BadaBoom BB";
 }
 
 #p1{
@@ -28,5 +42,30 @@ p{
 
 #p3{
     color: rebeccapurple;
+}
+
+.box{
+    padding: 8px;
+    height: 250px;
+    width: 250px;
+    color: black;
+    background-color: antiquewhite;
+}
+
+.box2{
+    padding: 10px;
+    height: 250px;
+    width: 250px;
+    background-color: blue;
+    border: 1px black solid;
+}
+
+#fancy{
+    border: solid black 2px;
+    color: white;
+    background-color: black;
+    padding: 28px;
+    box-sizing: border-box;
+    margin: 10px 0;
 }
 
